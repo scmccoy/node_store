@@ -1,21 +1,20 @@
 {
-  "name": "Node Test Store",
-  "version": "0.0.1",
+  "name": "dang-thats-delicious",
+  "version": "0.0.0",
   "private": true,
   "engines": {
     "node": ">= 7.6.0"
   },
-  "now": {
-    "dotenv": "variables.env.now"
-  },
+    "now": {
+      "dotenv": "variables.env.now"
+    },
   "scripts": {
-    "start": "node ./start.js",
+    "prod": "node ./start.js",
     "watch": "nodemon ./start.js --ignore public/",
-    "dev": "concurrently \"npm run watch\" \"npm run assets\" --names \"💻,📦\" --prefix name",
+    "start": "concurrently \"npm run watch\" \"npm run assets\" --names \"💻,📦\" --prefix name",
     "assets": "webpack -w --display-max-modules 0",
     "sample": "node ./data/load-sample-data.js",
-    "blowitallaway": "node ./data/load-sample-data.js --delete"
-  },
+    "blowitallaway": "node ./data/load-sample-data.js --delete"  },
   "browserslist": "last 3 versions",
   "dependencies": {
     "axios": "0.15.3",
