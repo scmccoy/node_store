@@ -1,0 +1,5 @@
+node_modules/
+variables.env
+variables.env.now
+*.log
+.DS_Store
