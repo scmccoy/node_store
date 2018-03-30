@@ -6,7 +6,9 @@ Clone / download.
 ```bash
 npm start
 ```
+Run on localhost:7777
 Initially contains sample data. 
+See login cred. below
 
 ## Sample Data
 
