@@ -1,6 +1,12 @@
 ## What is this?
 
-Just you wait folks!
+Sample site for learning node. 
+
+Clone / download. 
+```bash
+npm start
+```
+Initially contains sample data. 
 
 ## Sample Data
 
