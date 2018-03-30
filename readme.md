@@ -1,6 +1,14 @@
 ## What is this?
 
-Just you wait folks!
+Sample site for learning node. 
+
+Clone / download. 
+```bash
+npm start
+```
+Run on localhost:7777
+Initially contains sample data. 
+See login cred. below
 
 ## Sample Data
 
